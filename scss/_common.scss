@@ -15,8 +15,9 @@ header{
 .bottom-bar{
     background-color: $secondary-c-home;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    z-index: 1000;
 }
 
 
