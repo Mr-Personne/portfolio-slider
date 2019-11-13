@@ -1,3 +1,23 @@
+$primary-c-home : #5F6769; $secondary-c-home : #3C4245; 
+$bg-c-skills : #719192; $secondary-c-skills : #5F6769;
+$bg-c-portfolio : #DFCDC3; $secondary-c-portfolio : #719192;
+$bg-c-contact : #3C4245; $secondary-c-contact : #DFCDC3;
+
 body{
-    background-color: black;
+    background-color: $primary-c-home;
 }
+
+header{
+    background-color: $secondary-c-home;
+    height: 145px;
+    color: white;
+}
+
+.bottom-bar{
+    background-color: $secondary-c-home;
+    height: 145px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+

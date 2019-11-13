@@ -1,5 +1,19 @@
 body {
-  background-color: black;
+  background-color: #5F6769;
+}
+
+header {
+  background-color: #3C4245;
+  height: 145px;
+  color: white;
+}
+
+.bottom-bar {
+  background-color: #3C4245;
+  height: 145px;
+  color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
