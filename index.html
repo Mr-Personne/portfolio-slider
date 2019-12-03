@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header>
+<body class="home-main-color">
+    <header class="home-second-color">
         <div class="container-fluid p-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <nav>
                             <ul class="d-flex justify-content-between list-unstyled">
-                                <li>HOME</li>
-                                <li>SKILLS</li>
-                                <li>PORTFOLIO</li>
-                                <li>CONTACT</li>
+                                <li id="home" class="home-button home-active">HOME</li>
+                                <li id="skills" class="skills-button">SKILLS</li>
+                                <li id="portfolio" class="portfolio-button">PORTFOLIO</li>
+                                <li id="contact" class="contact-button">CONTACT</li>
                             </ul>
                         </nav>
                     </div>
@@ -34,23 +34,24 @@
     </header>
 
     <!-- bottom bar -->
-    <div class="container-fluid bottom-bar p-5">
+    <div class="container-fluid bottom-bar p-5 home-second-color">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <nav>
-                        <ul class="d-flex justify-content-end list-unstyled">
-                            <li>HOME</li>
-                            <li>SKILLS</li>
-                        </ul>
-                    </nav>
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="codepen-logo"><a href="https://codepen.io/nemoreno" target="_blank"><img
+                                    src="media/codepen-white.png" alt="codepen icon" width="600" height="600"></a></li>
+
+                        <li class="github-logo"><a href="https://github.com/Mr-Personne" target="_blank"><img
+                                    src="media/github-white.png" alt="github icon" width="120" height="120"></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <!-- ********************************************************** -->
 
-    <main>
+    <main class="fade-anim">
         <section class="home">
             <div class="container-fluid p-5">
                 <div class="container">
