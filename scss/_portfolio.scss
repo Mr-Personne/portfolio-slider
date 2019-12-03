@@ -1,0 +1,53 @@
+$main-color : #DFCDC3; $second-color : #719192; $next-color : #3C4245; 
+
+//section nav
+header.portfolio-second-color{
+    color: white;
+}
+
+
+//section home
+.portfolio{
+    display: block;
+}
+
+.portfolio .row{
+    align-items: center;
+}
+
+.portfolio img{
+    border-radius: 500px;
+    box-shadow: black;
+    height: 100%;
+    width: 100%;
+}
+.portfolio p:first-child{
+    width: 50%;
+}
+
+.portfolio p, .portfolio h2{
+    color: white;
+}
+
+.portfolio .col-6{
+    align-items: center;
+}
+
+//section color
+.portfolio-main-color{
+    background-color: $main-color;
+}
+
+.portfolio-second-color{
+    background-color: $second-color;
+    color: white;
+}
+
+.portfolio-text-color{
+    background-color: $main-color;
+}
+
+.portfolio-active{
+    color: $next-color;
+    font-weight: bold;
+}

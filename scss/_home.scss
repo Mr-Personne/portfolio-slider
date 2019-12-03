@@ -1,0 +1,53 @@
+$main-color : #5F6769; $second-color : #3C4245;  $next-color : #719192; 
+
+//section nav
+header.home-second-color{
+    color: white;
+}
+
+//section home
+.home{
+    display: block;
+}
+
+.home .row{
+    align-items: center;
+}
+
+.home img{
+    border-radius: 500px;
+    box-shadow: black;
+    height: 100%;
+    width: 100%;
+}
+.home p:first-child{
+    width: 50%;
+}
+
+.home p, .home h2{
+    color: white;
+}
+
+.home .col-6{
+    align-items: center;
+}
+
+//section color
+.home-main-color{
+    background-color: $main-color;
+}
+
+.home-second-color{
+    background-color: $second-color;
+    color: white;
+}
+
+.home-text-color{
+    background-color: $main-color;
+}
+
+.home-active{
+    color: $next-color;
+    font-weight: bold;
+}
+

@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header>
-        <div class="container-fluid">
+<body class="home-main-color">
+    <header class="home-second-color">
+        <div class="container-fluid p-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <nav>
-                            <ul class="d-flex">
-                                <li>HOME</li>
-                                <li>SKILLS</li>
-                                <li>PORTFOLIO</li>
-                                <li>CONTACT</li>
+                            <ul class="d-flex justify-content-between list-unstyled">
+                                <li id="home" class="home-button home-active">HOME</li>
+                                <li id="skills" class="skills-button">SKILLS</li>
+                                <li id="portfolio" class="portfolio-button">PORTFOLIO</li>
+                                <li id="contact" class="contact-button">CONTACT</li>
                             </ul>
                         </nav>
                     </div>
@@ -34,23 +34,49 @@
     </header>
 
     <!-- bottom bar -->
-    <div class="container-fluid bottom-bar">
+    <div class="container-fluid bottom-bar p-5 home-second-color">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <nav>
-                        <ul class="d-flex">
-                            <li>HOME</li>
-                            <li>SKILLS</li>
-                            <li>PORTFOLIO</li>
-                            <li>CONTACT</li>
-                        </ul>
-                    </nav>
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="codepen-logo"><a href="https://codepen.io/nemoreno" target="_blank"><img
+                                    src="media/codepen-white.png" alt="codepen icon" width="600" height="600"></a></li>
+
+                        <li class="github-logo"><a href="https://github.com/Mr-Personne" target="_blank"><img
+                                    src="media/github-white.png" alt="github icon" width="120" height="120"></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <!-- ********************************************************** -->
+
+    <main class="fade-anim">
+        <section class="home">
+            <div class="container-fluid p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <p><img src="media/girasole.jpg" alt="image profile" width="500" height="590"></p>
+                        </div>
+
+                        <div class="col-6">
+                            <h2>Sacha</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, omnis dolores
+                                laudantium excepturi maiores, modi aliquam sit nisi recusandae assumenda est. Labore
+                                sint quod blanditiis voluptate dignissimos officia perferendis cum.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, omnis dolores
+                                laudantium excepturi maiores, modi aliquam sit nisi recusandae assumenda est. Labore
+                                sint quod blanditiis voluptate dignissimos officia perferendis cum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
 
 
     <!-- Optional JavaScript -->

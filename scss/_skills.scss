@@ -1,0 +1,53 @@
+$main-color : #719192; $second-color : #5F6769; $next-color : #DFCDC3; 
+
+//section nav
+header.skills-second-color{
+    color: white;
+}
+
+//section home
+.skills{
+    display: block;
+}
+
+.skills .row{
+    align-items: center;
+}
+
+.skills img{
+    border-radius: 500px;
+    box-shadow: black;
+    height: 100%;
+    width: 100%;
+}
+.skills p:first-child{
+    width: 50%;
+}
+
+.skills p, .skills h2{
+    color: white;
+}
+
+.skills .col-6{
+    align-items: center;
+}
+
+//section color
+.skills-main-color{
+    background-color: $main-color;
+}
+
+.skills-second-color{
+    background-color: $second-color;
+    color: white;
+}
+
+.skills-text-color{
+    background-color: $main-color;
+}
+
+.skills-active{
+    color: $next-color;
+    font-weight: bold;
+}
+
