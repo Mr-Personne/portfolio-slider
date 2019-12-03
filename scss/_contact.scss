@@ -3,6 +3,9 @@ $main-color : #3C4245; $second-color : #DFCDC3; $next-color : #719192;
 //section nav
 header.contact-second-color{
     color: $main-color;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 

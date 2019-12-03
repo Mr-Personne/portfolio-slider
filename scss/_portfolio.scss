@@ -3,6 +3,9 @@ $main-color : #DFCDC3; $second-color : #719192; $next-color : #3C4245;
 //section nav
 header.portfolio-second-color{
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 
@@ -51,3 +54,39 @@ header.portfolio-second-color{
     color: $next-color;
     font-weight: bold;
 }
+
+//section image
+.bg-work{
+    background-image: url("../media/project1.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // transition: all 5s;
+}
+
+.bg-work:hover{
+    background-image: url("../media/project1.PNG");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    cursor: pointer;
+}
+
+.portfolio-dimensions{
+    width : 100px;
+    height : 25vh;
+}
+
+// .portfolio-dimensions::before{
+//     content: url("../media/hover-eye.png");
+//     display: none;
+//     width: 100%;
+//     height : 25vh;
+//     background-color: rgba(0, 0, 0, 0.575);
+//     color: white;
+//     text-align: center;
+//     line-height: 330px;
+//     cursor: pointer;
+// }
+
+// .portfolio-dimensions:hover:before{
+//     display: block;
+// }
