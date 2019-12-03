@@ -1,0 +1,295 @@
+body, header, .bottom-bar {
+  transition: all 2s;
+}
+
+.bottom-bar {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+
+nav ul li {
+  font-size: 30px;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active {
+  color: #719192;
+  font-weight: bold;
+}
+
+.codepen-logo, .github-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 30px;
+}
+
+.codepen-logo img, .github-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.codepen-logo img:hover,
+.github-logo img:hover {
+  cursor: pointer;
+}
+
+/*animation*/
+.fade-anim {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+header.home-second-color {
+  color: white;
+}
+
+.home {
+  display: block;
+}
+
+.home .row {
+  align-items: center;
+}
+
+.home img {
+  border-radius: 500px;
+  box-shadow: black;
+  height: 100%;
+  width: 100%;
+}
+
+.home p:first-child {
+  width: 50%;
+}
+
+.home p, .home h2 {
+  color: white;
+}
+
+.home .col-6 {
+  align-items: center;
+}
+
+.home-main-color {
+  background-color: #5F6769;
+}
+
+.home-second-color {
+  background-color: #3C4245;
+  color: white;
+}
+
+.home-text-color {
+  background-color: #5F6769;
+}
+
+.home-active {
+  color: #719192;
+  font-weight: bold;
+}
+
+header.skills-second-color {
+  color: white;
+}
+
+.skills {
+  display: block;
+}
+
+.skills .row {
+  align-items: center;
+}
+
+.skills img {
+  border-radius: 500px;
+  box-shadow: black;
+  height: 100%;
+  width: 100%;
+}
+
+.skills p:first-child {
+  width: 50%;
+}
+
+.skills p, .skills h2 {
+  color: white;
+}
+
+.skills .col-6 {
+  align-items: center;
+}
+
+.skills-main-color {
+  background-color: #719192;
+}
+
+.skills-second-color {
+  background-color: #5F6769;
+  color: white;
+}
+
+.skills-text-color {
+  background-color: #719192;
+}
+
+.skills-active {
+  color: #DFCDC3;
+  font-weight: bold;
+}
+
+header.portfolio-second-color {
+  color: white;
+}
+
+.portfolio {
+  display: block;
+}
+
+.portfolio .row {
+  align-items: center;
+}
+
+.portfolio img {
+  border-radius: 500px;
+  box-shadow: black;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio p:first-child {
+  width: 50%;
+}
+
+.portfolio p, .portfolio h2 {
+  color: white;
+}
+
+.portfolio .col-6 {
+  align-items: center;
+}
+
+.portfolio-main-color {
+  background-color: #DFCDC3;
+}
+
+.portfolio-second-color {
+  background-color: #719192;
+  color: white;
+}
+
+.portfolio-text-color {
+  background-color: #DFCDC3;
+}
+
+.portfolio-active {
+  color: #3C4245;
+  font-weight: bold;
+}
+
+header.contact-second-color {
+  color: #3C4245;
+}
+
+.contact {
+  display: block;
+}
+
+.contact .row {
+  align-items: center;
+}
+
+.contact img {
+  border-radius: 500px;
+  box-shadow: black;
+  height: 100%;
+  width: 100%;
+}
+
+.contact p:first-child {
+  width: 50%;
+}
+
+.contact p, .contact h2 {
+  color: white;
+}
+
+.contact .col-6 {
+  align-items: center;
+}
+
+.contact-main-color {
+  background-color: #3C4245;
+}
+
+.contact-second-color {
+  background-color: #DFCDC3;
+  color: white;
+}
+
+.contact-text-color {
+  background-color: #3C4245;
+}
+
+.contact-active {
+  color: #719192;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
